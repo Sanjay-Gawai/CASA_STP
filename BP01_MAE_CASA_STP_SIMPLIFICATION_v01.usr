@@ -1,0 +1,72 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=BP01_MAE_CASA_STP_SIMPLIFICATION_v01.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2022
+MinorVersion=1
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2022.1.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2022.1.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="BP01_MAE_CASA_STP_SIMPLIFICATION_T01_USERDETAILS__*delimiter*__BP01_MAE_CASA_STP_SIMPLIFICATION_T02_CHECKDOWNTIME__*delimiter*__BP01_MAE_CASA_STP_SIMPLIFICATION_T03_MASTERDATA__*delimiter*__BP01_MAE_CASA_STP_SIMPLIFICATION_T04_VERIFYUSERNAME__*delimiter*__BP01_MAE_CASA_STP_SIMPLIFICATION_T05_MDIPGENERATE__*delimiter*__BP01_MAE_CASA_STP_SIMPLIFICATION_T06_CUSTOMERINQUIRYETB__*delimiter*__BP01_MAE_CASA_STP_SIMPLIFICATION_T07_SUMMARY__*delimiter*__BP01_MAE_CASA_STP_SIMPLIFICATION_T08_SCOREPARTY__*delimiter*__BP01_MAE_CASA_STP_SIMPLIFICATION_T09_ACTIVATE_CASAACCOUNT_ETB"
+[StateManagement]
+LastReplayStatus=2
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[ManuallyExtraFiles]
+encryption.js=
+[Transactions]
+BP01_MAE_CASA_STP_SIMPLIFICATION_T01_USERDETAILS=
+BP01_MAE_CASA_STP_SIMPLIFICATION_T02_CHECKDOWNTIME=
+BP01_MAE_CASA_STP_SIMPLIFICATION_T03_MASTERDATA=
+BP01_MAE_CASA_STP_SIMPLIFICATION_T04_VERIFYUSERNAME=
+BP01_MAE_CASA_STP_SIMPLIFICATION_T05_MDIPGENERATE=
+BP01_MAE_CASA_STP_SIMPLIFICATION_T06_CUSTOMERINQUIRYETB=
+BP01_MAE_CASA_STP_SIMPLIFICATION_T07_SUMMARY=
+BP01_MAE_CASA_STP_SIMPLIFICATION_T08_SCOREPARTY=
+BP01_MAE_CASA_STP_SIMPLIFICATION_T09_ACTIVATE_CASAACCOUNT_ETB=
